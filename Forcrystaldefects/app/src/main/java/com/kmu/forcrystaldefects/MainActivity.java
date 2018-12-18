@@ -13,18 +13,6 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
     }
 
-    public void Dart(View view)
-    {
-        Intent intent = new Intent(this, Game1.class);
-        startActivity(intent);
-    }
-
-    public void Game2(View view)
-    {
-        Intent intent = new Intent(this, Game2.class);
-        startActivity(intent);
-    }
-
     public void random_Game1(View view)
     {
         Intent intent = new Intent(this, random_Game1.class);
@@ -34,12 +22,6 @@ public class MainActivity extends Activity {
     public void random_Game2(View view)
     {
         Intent intent = new Intent(this, random_Game2.class);
-        startActivity(intent);
-    }
-
-    public void random_Game3(View view)
-    {
-        Intent intent = new Intent(this, random_Game3.class);
         startActivity(intent);
     }
 }

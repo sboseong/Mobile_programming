@@ -7,66 +7,43 @@
     android:background="@drawable/hipo"
     tools:context=".MainActivity">
 
-    <ImageButton
-        android:id="@+id/GameButton1"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_marginBottom="37dp"
-        android:layout_marginStart="30dp"
-        android:onClick="random_Game1"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@android:drawable/btn_dialog" />
-
-    <ImageButton
-        android:id="@+id/GameButton2"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_marginBottom="97dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:onClick="random_Game2"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toStartOf="@+id/GameButton3"
-        app:layout_constraintStart_toEndOf="@+id/GameButton1"
-        app:srcCompat="@android:drawable/btn_dialog" />
-
-    <ImageButton
-        android:id="@+id/GameButton3"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_marginBottom="37dp"
-        android:layout_marginEnd="30dp"
-        android:onClick="random_Game3"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@android:drawable/btn_dialog" />
-
     <Button
-        android:id="@+id/button"
-        android:layout_width="170dp"
-        android:layout_height="60dp"
-        android:layout_marginBottom="135dp"
-        android:text="Button"
-        android:onClick="Dart"
+        android:id="@+id/GameButton1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginStart="17dp"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="random_Game1"
+        android:text="1"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="36sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+
     <Button
-        android:id="@+id/button2"
-        android:layout_width="170dp"
-        android:layout_height="60dp"
-        android:layout_marginBottom="135dp"
-        android:text="Button"
-        android:onClick="Game2"
+        android:id="@+id/GameButton2"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginEnd="17dp"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="random_Game2"
+        android:text="2"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="36sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/btn_dialog" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="180dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:text="아직도 결정 못했니?\n \n 그렇다면 내가 결정하마 "
