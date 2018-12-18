@@ -7,100 +7,130 @@
     android:background="@drawable/bomb"
     tools:context=".random_Game2">
 
-    <Button
-        android:id="@+id/button25"
+    <ImageButton
+        android:id="@+id/b1"
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:layout_marginEnd="78dp"
         android:layout_marginStart="79dp"
         android:layout_marginTop="53dp"
-        app:layout_constraintEnd_toStartOf="@+id/button24"
-        app:layout_constraintStart_toEndOf="@+id/button20"
-        app:layout_constraintTop_toBottomOf="@+id/button19" />
+        android:scaleType="fitXY"
+        android:background="@drawable/q1"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toStartOf="@+id/b2"
+        app:layout_constraintStart_toEndOf="@+id/b6"
+        app:layout_constraintTop_toBottomOf="@+id/b7" />
 
-    <Button
-        android:id="@+id/button24"
+    <ImageButton
+        android:id="@+id/b2"
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:layout_marginEnd="16dp"
         android:layout_marginTop="53dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/q1"
+        android:onClick="onClick"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button21" />
+        app:layout_constraintTop_toBottomOf="@+id/b5" />
 
-    <Button
-        android:id="@+id/button23"
+    <ImageButton
+        android:id="@+id/b3"
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:layout_marginEnd="16dp"
         android:layout_marginTop="53dp"
+        android:scaleType="fitXY"
+        android:onClick="onClick"
+        android:background="@drawable/q1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button17" />
+        app:layout_constraintTop_toBottomOf="@+id/b9" />
 
-    <Button
-        android:id="@+id/button22"
+    <ImageButton
+        android:id="@+id/b4"
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="50dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/q1"
+        android:onClick="onClick"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton" />
 
-    <Button
-        android:id="@+id/button21"
+    <ImageButton
+        android:id="@+id/b5"
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:layout_marginEnd="16dp"
         android:layout_marginTop="53dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/q1"
+        android:onClick="onClick"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button23" />
+        app:layout_constraintTop_toBottomOf="@+id/b3" />
 
-    <Button
-        android:id="@+id/button20"
+    <ImageButton
+        android:id="@+id/b6"
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="53dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/q1"
+        android:onClick="onClick"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button18" />
+        app:layout_constraintTop_toBottomOf="@+id/b8" />
 
-    <Button
-        android:id="@+id/button19"
+    <ImageButton
+        android:id="@+id/b7"
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:layout_marginEnd="78dp"
         android:layout_marginStart="79dp"
         android:layout_marginTop="53dp"
-        app:layout_constraintEnd_toStartOf="@+id/button21"
-        app:layout_constraintStart_toEndOf="@+id/button18"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        android:scaleType="fitXY"
+        android:background="@drawable/q1"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toStartOf="@+id/b5"
+        app:layout_constraintStart_toEndOf="@+id/b8"
+        app:layout_constraintTop_toBottomOf="@+id/b11" />
 
-    <Button
-        android:id="@+id/button18"
+    <ImageButton
+        android:id="@+id/b8"
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="53dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/q1"
+        android:onClick="onClick"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/b12" />
 
-    <Button
-        android:id="@+id/button17"
+    <ImageButton
+        android:id="@+id/b9"
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:layout_marginEnd="16dp"
         android:layout_marginTop="100dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/q1"
+        android:onClick="onClick"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button16"
+    <ImageButton
+        android:id="@+id/b10"
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:layout_marginEnd="78dp"
         android:layout_marginStart="79dp"
         android:layout_marginTop="59dp"
-        app:layout_constraintEnd_toStartOf="@+id/button17"
-        app:layout_constraintStart_toEndOf="@+id/button22"
+        android:scaleType="fitXY"
+        android:background="@drawable/q1"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toStartOf="@+id/b9"
+        app:layout_constraintStart_toEndOf="@+id/b4"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <ImageButton
@@ -130,24 +160,30 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageButton" />
 
-    <Button
-        android:id="@+id/button"
+    <ImageButton
+        android:id="@+id/b11"
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:layout_marginEnd="78dp"
         android:layout_marginStart="79dp"
         android:layout_marginTop="53dp"
-        app:layout_constraintEnd_toStartOf="@+id/button23"
-        app:layout_constraintStart_toEndOf="@+id/button3"
-        app:layout_constraintTop_toBottomOf="@+id/button16" />
+        android:scaleType="fitXY"
+        android:background="@drawable/q1"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toStartOf="@+id/b3"
+        app:layout_constraintStart_toEndOf="@+id/b12"
+        app:layout_constraintTop_toBottomOf="@+id/b10" />
 
-    <Button
-        android:id="@+id/button3"
+    <ImageButton
+        android:id="@+id/b12"
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="53dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/q1"
+        android:onClick="onClick"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button22" />
+        app:layout_constraintTop_toBottomOf="@+id/b4" />
 
 </android.support.constraint.ConstraintLayout>
